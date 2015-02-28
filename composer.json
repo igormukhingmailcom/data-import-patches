@@ -1,0 +1,20 @@
+{
+    "name": "igormukhingmailcom/data-import-patches",
+    "version": "0.1.0",
+    "type": "patches",
+    "require": {
+        "netresearch/composer-patches-plugin": "~1.0"
+    },
+    "extra": {
+        "patches": {
+            "ddeboer/data-import": {
+                "dev-master": {
+                    "fa67f4294d50cd8599be84c742f0014ccbf5669b": {
+                        "title": "[FEATURE] Proper reaction for SIGTERM and SIGINT during Workflow",
+                        "url": "https://github.com/igormukhingmailcom/data-import/commit/fa67f4294d50cd8599be84c742f0014ccbf5669b.patch"
+                    }
+                }
+            }
+        }
+    }
+}
