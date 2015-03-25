@@ -11,7 +11,7 @@
                 "dev-master": {
                     "fa67f4294d50cd8599be84c742f0014ccbf5669b": {
                         "title": "[FEATURE] Proper reaction for SIGTERM and SIGINT during Workflow",
-                        "url": "https://github.com/igormukhingmailcom/data-import/commit/fa67f4294d50cd8599be84c742f0014ccbf5669b.patch"
+                        "url": "https://github.com/ddeboer/data-import/compare/master...igormukhingmailcom:pcntl.patch"
                     },
                     "f53f3f8a31d475a43aa0a90df53030e478eca2e4": {
                         "title": "[FEATURE] ConsoleTableWriter implementation, README and test",
