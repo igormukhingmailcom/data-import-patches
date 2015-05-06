@@ -9,13 +9,23 @@
         "patches": {
             "ddeboer/data-import": {
                 "dev-master": {
-                    "fa67f4294d50cd8599be84c742f0014ccbf5669b": {
-                        "title": "[FEATURE] Proper reaction for SIGTERM and SIGINT during Workflow",
-                        "url": "https://github.com/ddeboer/data-import/compare/master...igormukhingmailcom:pcntl.patch"
+                    "efbcc8b35e7db0db697bdc1ed6743b80562ba89a": {
+                        "title": "[FEATURE] ExcelWriter: Added option to prepend header row with column names",
+                        "url": "https://github.com/ddeboer/data-import/compare/master...igormukhingmailcom:patch-2.patch"
                     },
-                    "f53f3f8a31d475a43aa0a90df53030e478eca2e4": {
-                        "title": "[FEATURE] ConsoleTableWriter implementation, README and test",
-                        "url": "https://github.com/ddeboer/data-import/compare/master...igormukhingmailcom:consoletablewriter.patch"
+                    "eaf852b6abf3d776aefe119a88ca47238fa53f98": {
+                        "title": "[FEATURE] CsvWriter: Added option to prepend header row with column names",
+                        "url": "https://github.com/ddeboer/data-import/compare/master...igormukhingmailcom:csvwriter-header.patch"
+                    }
+                },
+                "0.18.0": {
+                    "9c5caa83ca3b14fb41a6057f091a2d5859fa484f": {
+                        "title": "[FEATURE] Proper reaction for SIGTERM and SIGINT during Workflow",
+                        "url": "https://github.com/ddeboer/data-import/compare/0.18.0...igormukhingmailcom:0.18.0-pcntl.patch"
+                    },
+                    "7752301c7b1487ac10d38ed1ecdf13e40702e7fd": {
+                        "title": "[FEATURE] ExcelWriter: Added option to prepend header row with column names",
+                        "url": "https://github.com/ddeboer/data-import/compare/0.18.0...igormukhingmailcom:0.18.0-excelwriter-header.patch"
                     }
                 }
             }
